@@ -7,7 +7,7 @@ const Navbar = () => {
             <Image src="/nuthatch.png" className='border-white'  width={70}
           height={37} alt="Logo" />
         </div>
-        <ul className='flex justify-evenly items-center gap-5 text-black'>
+        <ul className='flex justify-evenly items-center gap-5'>
             <li><Link href = '/' >Home</Link></li>
             <li><Link href = '/about' >About</Link></li>
             <li><Link href = '/contact' >Contact</Link></li>
