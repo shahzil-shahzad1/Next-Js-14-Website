@@ -2,7 +2,6 @@
 import React from 'react'
 import Script from 'next/script'
 import { useState } from 'react'
-import Navbar from "@/Components/Navbar";
 // import Image from 'next/image'
 // import '/Contact.css'
 const Page = () => {
@@ -46,9 +45,7 @@ const Page = () => {
         <input type="password" name="" id="" className='py-4 px-6 border-purple rounded-full text-[18px]' placeholder='Enter your password' />
         <input type="email" name="email" id="email" className='py-4 px-6 border-purple rounded-full text-[18px]' placeholder='Enter your email' />
       </form>
-    </div> */}
-    <Navbar/>
-    
+    </div> */}    
   <div className='bg-gray-white'>
 <form className="max-w-md mx-auto my-20">
   <div className="relative z-0 w-full mb-5 group">
