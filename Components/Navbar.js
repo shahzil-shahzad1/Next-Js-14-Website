@@ -1,9 +1,9 @@
 import Link from "next/link"
 const Navbar = () => {
   return (
-      <nav className='h-[80px] flex justify-between items-center sticky z-10 top-0 bg-purple-400 text-white px-8 py-2'>
+      <nav className='h-20 w-full flex justify-between items-center sticky z-10 top-0 bg-purple-400 text-white px-8 py-2'>
         <div className="logo">
-            <img src="/nuthatch.png" className='border-white'  width={80}
+            <img src="/nuthatch.png" className='border-white'  width={70}
           height={37} alt="" />
         </div>
         <ul className='flex justify-evenly items-center gap-5'>
