@@ -1,11 +1,8 @@
 import React from 'react'
 import Head from 'next/head';
 import Image from 'next/image';
-import Navbar from "@/Components/Navbar";
 const page = () => {
   return (
-    <>
-    <Navbar/>
     <div>
       <Head>
         <title>About Me</title>
@@ -105,7 +102,6 @@ const page = () => {
         </section>
       </main>
     </div>
-    </>
   )
 }
 
