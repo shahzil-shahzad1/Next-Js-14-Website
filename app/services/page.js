@@ -1,11 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import Navbar from "@/Components/Navbar";
 
 const page = () => {
   return (
-    <>
-    <Navbar/>    
+    <> 
     <div className="bg-gray-50 py-12">
     {/* Services Section */}
     <section className="text-center px-6 py-12">
