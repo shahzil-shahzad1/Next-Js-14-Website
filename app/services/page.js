@@ -1,8 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from "@Components/Navbar"
 
 const page = () => {
   return (
+    <>
+    <Navbar/>    
     <div className="bg-gray-50 py-12">
     {/* Services Section */}
     <section className="text-center px-6 py-12">
@@ -144,6 +147,7 @@ const page = () => {
       <p className="mt-2 text-sm">Built with love using Next.js and Tailwind CSS</p>
     </footer>
   </div>
+    </>
   )
 }
 
