@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Navbar from "@Components/Navbar"
+import Navbar from "@/Components/Navbar";
 
 const page = () => {
   return (
