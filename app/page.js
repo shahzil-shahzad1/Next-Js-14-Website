@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import anime from 'animejs';
-import Navbar from "@Components/Navbar"
+import Navbar from "@/Components/Navbar";
 // import TypingAnimationSection from '@/Components/TypingAnimationSection';
 // import Typed from 'react-typed';
 import Image from 'next/image';
