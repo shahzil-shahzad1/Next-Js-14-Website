@@ -2,7 +2,7 @@
 import React from 'react'
 import Script from 'next/script'
 import { useState } from 'react'
-import Navbar from "@Components/Navbar"
+import Navbar from "@/Components/Navbar";
 // import Image from 'next/image'
 // import '/Contact.css'
 const Page = () => {
